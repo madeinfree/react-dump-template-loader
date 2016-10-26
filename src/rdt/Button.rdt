@@ -1,0 +1,22 @@
+[displayname$=(Button)]
+[state$=(
+  author='Whien',
+  twitter='https://twitter.com/Wn_Boy',
+  github='https://github.com/madeinfree/'
+)]
+[render$=(
+<div>
+  <div>
+    <h1>Author: { this.state.author }</h1>
+    <h2>Twitter: <a href={ this.state.twitter }>Link</a></h2>
+    <h2>Github: <a href={ this.state.github }>github</a></h2>
+  </div>
+  <div>
+    <button
+      style={{ color: 'red' }}
+      onClick={ () => { console.log('awesome click') } }>
+      Click me
+    </button>
+  </div>
+</div>
+)]
